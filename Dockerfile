@@ -1,4 +1,4 @@
-FROM jenkinsci/slave:3.7-1
+FROM jenkinsci/jnlp-slave
 MAINTAINER Yan Liu <yliu@gizwits.com>
 
 USER root
