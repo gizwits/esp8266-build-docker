@@ -35,6 +35,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update -qq \
     && DEBIAN_FRONTEND=noninteractive apt-get autoremove -yq --purge \
     && DEBIAN_FRONTEND=noninteractive apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
-    && rm -rf /tmp
-
-USER jenkins
+    && rm -rf /tmp/*
